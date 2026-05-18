@@ -1,0 +1,77 @@
+import { motion } from 'framer-motion'
+import { FiArrowUp, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { SITE, navLinks } from '../../constants/site'
+import { scrollToId } from '../../lib/utils'
+
+export function Footer() {
+  const year = new Date().getFullYear()
+
+  return (
+    <footer className="relative overflow-hidden bg-[#f8f9fc] py-16 border-t border-[#e5e7eb] dark:bg-transparent dark:border-white/5">
+      <div className="container mx-auto max-w-7xl px-4 md:px-8">
+        <div className="flex flex-col items-center justify-between gap-10 md:flex-row">
+          <div className="flex flex-col items-center md:items-start">
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="flex items-center gap-2"
+            >
+              <span className="font-display text-2xl font-black tracking-tight text-[#0a0a0a] dark:text-white">
+                {SITE.name}<span className="text-[#6366f1]">.</span>
+              </span>
+            </motion.div>
+            <p className="mt-1.5 text-sm font-medium text-[#737373] dark:text-white/50">{SITE.role}</p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-6">
+            {navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => scrollToId(link.id)}
+                className="text-[10px] font-black uppercase tracking-widest text-[#737373] transition-colors hover:text-[#6366f1] dark:text-white/50 dark:hover:text-[#6366f1]"
+              >
+                {link.label}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex gap-3">
+            {[
+              { icon: FiGithub, href: SITE.social.github },
+              { icon: FiLinkedin, href: SITE.social.linkedin },
+              { icon: FiMail, href: `mailto:${SITE.email}` },
+            ].map((social, i) => (
+              <motion.a
+                key={i}
+                href={social.href}
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ y: -4 }}
+                className="flex h-11 w-11 items-center justify-center rounded-xl border border-[#e5e7eb] bg-white text-[#404040] shadow-[0_1px_2px_rgba(0,0,0,0.02),0_4px_12px_rgba(0,0,0,0.04)] transition-all hover:scale-110 hover:border-[#6366f1]/30 hover:text-[#6366f1] dark:border-white/10 dark:bg-white/5 dark:text-white/60 dark:hover:border-[#6366f1]/40 dark:hover:text-[#6366f1]"
+              >
+                <social.icon size={18} />
+              </motion.a>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col items-center justify-between border-t border-[#e5e7eb] pt-8 md:flex-row dark:border-white/5">
+          <p className="text-[10px] font-black uppercase tracking-widest text-[#737373] dark:text-white/40">
+            &copy; {year} {SITE.name}. All Rights Reserved.
+          </p>
+          
+          <button
+            onClick={() => scrollToId('hero')}
+            className="group mt-6 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[#737373] transition-colors hover:text-[#6366f1] md:mt-0"
+          >
+            Back to top
+            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-white border border-[#e5e7eb] text-[#404040] transition-all group-hover:bg-[#6366f1] group-hover:text-white group-hover:border-[#6366f1] dark:bg-white/5 dark:border-white/10 dark:text-white/60 dark:group-hover:bg-[#6366f1] dark:group-hover:text-white">
+              <FiArrowUp size={14} />
+            </div>
+          </button>
+        </div>
+      </div>
+    </footer>
+  )
+}
