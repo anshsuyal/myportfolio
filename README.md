@@ -4,7 +4,7 @@
 
 ### A modern, animated, MERN-developer portfolio built with React 19, TypeScript, and Tailwind CSS v4.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://your-live-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://anshusuyalportfolio.vercel.app/)
 
 
 [View Demo](#-live-demo) · [Report Bug](https://github.com/anshsuyal/My--portfolio/issues) · [Request Feature](https://github.com/anshsuyal/My--portfolio/issues)
@@ -24,7 +24,6 @@ The goal of this codebase is to demonstrate **production-grade frontend engineer
 ## ✨ Features
 
 - 🎨 **Animated hero section** with an interactive WebGL distortion sphere (`@react-three/fiber` + `three.js`)
-- 🌗 **Light/Dark theme toggle** with `localStorage` persistence and system-aware defaults
 - 🧭 **Smooth-scroll navigation** with active-section highlighting (`useActiveSection`) and a mobile slide-in menu
 - 🪄 **Scroll-based motion design** throughout every section using `framer-motion` + `lenis` smooth scrolling
 - 📬 **Functional contact form** with client-side validation (name/email/message length + format checks) and optional Formspree integration
@@ -142,18 +141,6 @@ npm run dev
 | `npm run lint` | Run ESLint across the project |
 
 
-
-## 📘 Usage
-
-This is a single-page personal site — there's no routing to configure beyond the root route. To make it your own:
-
-1. Edit `src/constants/site.ts` to update name, contact details, social links, skills, experience, and project entries.
-2. Replace images in `src/assets/`.
-3. Set `VITE_FORMSPREE_ENDPOINT` so the contact form actually delivers messages.
-4. Run `npm run build` and deploy the `dist/` folder.
-
----
-
 ## 📸 Screenshots
 <img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/19f11de0-f7a5-4df8-b373-466f46011c44" />
 <img width="1917" height="901" alt="image" src="https://github.com/user-attachments/assets/cc61045a-5e79-4f3c-8baf-5c939af937b5" />
@@ -164,8 +151,7 @@ This is a single-page personal site — there's no routing to configure beyond t
 
 ## 🌐 Live Demo
 
-🔗 **[your-live-url.vercel.app](https://your-live-url.vercel.app)
-
+🔗 https://anshusuyalportfolio.vercel.app/
 ---
 
 
@@ -173,7 +159,7 @@ This is a single-page personal site — there's no routing to configure beyond t
 
 **Ansh Suyal**
 📧 [sharmaansh9386@gmail.com]
-💼 [LinkedIn](https://www.linkedin.com/in/ansh-sharma-14072005w22)
-🐙 [GitHub](https://github.com/anshsuyal)
+💼 www.linkedin.com/in/ansh-sharma-14072005w22
+🐙 https://github.com/anshsuyal
 
 ---
