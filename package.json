@@ -37,7 +37,7 @@
     "globals": "^17.5.0",
     "heic-convert": "^2.1.0",
     "tailwindcss": "^4.3.0",
-    "typescript": "~6.0.2",
+    "typescript": "^5.x.x",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10"
   }
