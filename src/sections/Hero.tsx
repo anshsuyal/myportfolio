@@ -74,7 +74,7 @@ export function Hero() {
             <div className="flex flex-wrap gap-4 mb-12">
               <MagneticButton>
                 <a
-                  href="#projects"
+                  href="/src/pages/Projects.tsx"
                   className="flex items-center gap-2 px-8 py-4 bg-white text-[#0a0a0a] rounded-xl font-black uppercase tracking-widest text-xs shadow-[0_4px_16px_rgba(0,0,0,0.12)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.16)] transition-all hover:scale-105 active:scale-95 overflow-hidden group"
                 >
                   <span className="relative z-10">Explore Projects</span>
