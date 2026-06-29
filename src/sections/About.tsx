@@ -29,7 +29,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-[10px] font-black uppercase tracking-[0.4em] text-[#6366f1]">About Me</p>
-            <h2 className="mt-4 font-display text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h2 className="mt-4 font-display text-3xl sm:text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl">
               Building products that matter<span className="text-[#6366f1]">.</span>
             </h2>
             <div className="mt-8 space-y-5 text-base md:text-lg leading-relaxed text-white/70">
@@ -37,7 +37,7 @@ export function About() {
               <p>{about.goals}</p>
             </div>
             
-            <div className="mt-12 grid grid-cols-2 gap-6 md:grid-cols-4">
+            <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-6 md:grid-cols-4">
               {stats.map((stat, i) => (
                 <motion.div
                   key={stat.label}
@@ -45,7 +45,7 @@ export function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
-                  className="bg-white/5 rounded-2xl p-5 border border-white/5"
+                  className="bg-white/5 rounded-2xl p-4 sm:p-5 border border-white/5"
                 >
                   <p className="font-display text-3xl font-black text-white">
                     <AnimatedCounter to={stat.value} suffix={stat.suffix} />

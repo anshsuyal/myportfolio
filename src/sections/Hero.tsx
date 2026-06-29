@@ -48,7 +48,7 @@ export function Hero() {
             </motion.div>
 
             {/* Main Headline */}
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.92] text-white mb-6">
+            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.92] text-white mb-6 break-words">
               Hi, I am <br />
               <span className="text-gradient">
                 {" "}

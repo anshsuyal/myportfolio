@@ -75,7 +75,7 @@ export function Contact() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-[10px] font-black uppercase tracking-[0.4em] text-[#6366f1]">Contact</p>
-            <h2 className="mt-4 font-display text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h2 className="mt-4 font-display text-3xl sm:text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl">
               Let&rsquo;s talk about your next project<span className="text-[#6366f1]">.</span>
             </h2>
             <p className="mt-6 text-base md:text-lg text-white/70 leading-relaxed">

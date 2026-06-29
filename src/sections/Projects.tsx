@@ -37,13 +37,13 @@ function ProjectCard({ project, index, isFeatured }: { project: (typeof projects
             alt={project.title}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/80 via-[#0a0a0a]/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/90 via-[#0a0a0a]/40 to-transparent opacity-100 lg:opacity-0 transition-opacity duration-500 lg:group-hover:opacity-100" />
           
-          <div className="absolute inset-x-0 bottom-0 translate-y-full p-6 transition-transform duration-500 group-hover:translate-y-0">
-            <h3 className="font-display text-xl md:text-2xl font-black text-white">{project.title}</h3>
-            <p className="mt-2 text-sm text-white/70 line-clamp-2 leading-relaxed">{project.description}</p>
+          <div className="absolute inset-x-0 bottom-0 translate-y-0 lg:translate-y-full p-4 md:p-6 transition-transform duration-500 lg:group-hover:translate-y-0">
+            <h3 className="font-display text-lg sm:text-xl md:text-2xl font-black text-white leading-tight">{project.title}</h3>
+            <p className="mt-1 md:mt-2 text-xs md:text-sm text-white/80 line-clamp-2 leading-relaxed">{project.description}</p>
             
-            <div className="mt-4 flex flex-wrap gap-1.5">
+            <div className="mt-3 md:mt-4 flex flex-wrap gap-1.5">
               {project.stack.map(s => (
                 <span key={s} className="rounded-lg bg-white/10 px-2.5 py-1 text-[9px] font-bold uppercase tracking-widest text-white backdrop-blur-md border border-white/10">
                   {s}
@@ -51,22 +51,22 @@ function ProjectCard({ project, index, isFeatured }: { project: (typeof projects
               ))}
             </div>
 
-            <div className="mt-6 flex gap-3">
+            <div className="mt-4 md:mt-6 flex gap-2 sm:gap-3">
               <a
                 href={project.live}
                 target={liveIsSectionLink ? undefined : '_blank'}
                 rel={liveIsSectionLink ? undefined : 'noreferrer'}
-                className="flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-[#0a0a0a] transition-all hover:scale-105 active:scale-95"
+                className="flex flex-1 justify-center items-center gap-1.5 md:gap-2 rounded-xl bg-white px-3 md:px-5 py-2 md:py-2.5 text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#0a0a0a] transition-all hover:scale-105 active:scale-95"
               >
-                Live <FiExternalLink size={13} />
+                Live <FiExternalLink size={12} className="md:w-[13px] md:h-[13px]" />
               </a>
               <a
                 href={project.github}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 rounded-xl bg-white/10 px-5 py-2.5 text-[10px] font-black uppercase tracking-widest text-white backdrop-blur-md border border-white/10 transition-all hover:bg-white/20 hover:scale-105 active:scale-95"
+                className="flex flex-1 justify-center items-center gap-1.5 md:gap-2 rounded-xl bg-white/10 px-3 md:px-5 py-2 md:py-2.5 text-[9px] md:text-[10px] font-black uppercase tracking-widest text-white backdrop-blur-md border border-white/10 transition-all hover:bg-white/20 hover:scale-105 active:scale-95"
               >
-                Source <FiGithub size={13} />
+                Source <FiGithub size={12} className="md:w-[13px] md:h-[13px]" />
               </a>
             </div>
           </div>
