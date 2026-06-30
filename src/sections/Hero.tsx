@@ -10,8 +10,10 @@ import { SITE } from "../constants/site";
 import { HeroBackground } from "../components/ui/HeroBackground";
 import { MagneticButton } from "../components/ui/MagneticButton";
 import heroImage from "../assets/ansh2-optimized.jpg";
+import { useNavigate } from "react-router-dom";
 
 export function Hero() {
+  const navigate = useNavigate();
   const socialLinks = [
     { icon: FiGithub, href: SITE.social.github, label: "GitHub" },
     { icon: FiLinkedin, href: SITE.social.linkedin, label: "LinkedIn" },
@@ -41,7 +43,9 @@ export function Hero() {
               transition={{ delay: 0.2 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/10 mb-8 animate-float"
             >
-              <span className="text-lg" aria-hidden="true">Hi</span>
+              <span className="text-lg" aria-hidden="true">
+                Hi
+              </span>
               <span className="text-[10px] font-black uppercase tracking-widest text-white/50">
                 Hello, I'm {SITE.name.split(" ")[0]}
               </span>
@@ -58,9 +62,7 @@ export function Hero() {
 
             {/* Animated Typewriter Text */}
             <div className="text-xl md:text-2xl lg:text-3xl font-display flex gap-3 items-center mb-8 h-12">
-              <span className="text-white/50 font-semibold">
-                I am a
-              </span>
+              <span className="text-white/50 font-semibold">I am a</span>
               Developer
             </div>
 
@@ -74,7 +76,7 @@ export function Hero() {
             <div className="flex flex-wrap gap-4 mb-12">
               <MagneticButton>
                 <a
-                  href="/src/pages/Projects.tsx"
+                  onClick={() => navigate("/projects")}
                   className="flex items-center gap-2 px-8 py-4 bg-white text-[#0a0a0a] rounded-xl font-black uppercase tracking-widest text-xs shadow-[0_4px_16px_rgba(0,0,0,0.12)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.16)] transition-all hover:scale-105 active:scale-95 overflow-hidden group"
                 >
                   <span className="relative z-10">Explore Projects</span>
