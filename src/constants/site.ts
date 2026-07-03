@@ -58,7 +58,7 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80',
     stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'JWT'],
     github: 'https://github.com/anshsuyal/job-portal.git',
-    live: '#contact',
+    live: 'https://careerconnect-git-main-anshsuyals-projects.vercel.app/',
     category: 'fullstack',
   },
   {

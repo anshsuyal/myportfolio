@@ -109,7 +109,7 @@ export const projectsData: Project[] = [
 
   links: {
     github: "https://github.com/anshsuyal/careerconnect",
-    live: "https://your-live-demo-url.com"
+    live: "https://careerconnect-git-main-anshsuyals-projects.vercel.app/"
   }
 },
   {
