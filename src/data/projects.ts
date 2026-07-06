@@ -165,7 +165,7 @@ export const projectsData: Project[] = [
       "TaxiWeb is a responsive taxi booking platform designed to provide users with a smooth and intuitive cab reservation experience. The application features a modern UI, multiple service sections, responsive layouts, and optimized performance to deliver a professional transportation booking interface.",
 
     image:
-      "https://i.pinimg.com/736x/f5/d4/07/f5d4073ed4a5d6988570ce221c24354e.jpg",
+      "https://i.pinimg.com/736x/56/23/f8/5623f821e289f880e000429475abd36d.jpg",
 
     stack: ["React.js", "Tailwind CSS", "JavaScript", "React Router", "Vite"],
 
