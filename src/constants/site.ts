@@ -14,7 +14,7 @@ export const SITE = {
   email: 'sharmaansh9386@gmail.com',
   phone: '+91-9467497707',
   location: 'Dehradun, Uttarakhand',
-  resumeUrl: '/Ansh_Sharma_Resume_doc.pdf',
+  resumeUrl: '/Ansh_Sharma_Resume_1.pdf',
   formEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT ?? '',
   social: {
     github: 'https://github.com/anshsuyal',
