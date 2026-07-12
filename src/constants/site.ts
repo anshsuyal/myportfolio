@@ -18,7 +18,7 @@ export const SITE = {
   formEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT ?? '',
   social: {
     github: 'https://github.com/anshsuyal',
-    linkedin: 'https://www.linkedin.com/in/ansh-sharma-14072005w22',
+    linkedin: 'https://www.linkedin.com/in/ansh-suyal',
     twitter: 'https://twitter.com',
   },
 } as const
