@@ -201,4 +201,59 @@ export const projectsData: Project[] = [
       live: "https://taxiweb-blond.vercel.app/",
     },
   },
+  {
+  id: "5",
+
+  title: "AI Customer Support Chatbot",
+
+  shortDescription:
+    "A production-ready AI chatbot SaaS with an embeddable chat widget for websites.",
+
+  fullDescription:
+    "A full-stack AI customer support chatbot built with Next.js, MongoDB, and Scalekit. It allows businesses to embed an AI chatbot on any website, manage organizations, store conversations securely, and customize chatbot settings through a modern dashboard.",
+
+  image: "https://i.pinimg.com/736x/f0/b7/ec/f0b7ec3524b19ef0b3ff7ffcc325ece1.jpg",
+
+  stack: [
+    "Next.js",
+    "React.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Scalekit",
+    "AI",
+    "Vercel"
+  ],
+
+  features: [
+    "AI-powered customer support",
+    "Embeddable chat widget",
+    "Multi-tenant SaaS architecture",
+    "Scalekit authentication",
+    "MongoDB chat storage",
+    "Responsive dashboard",
+    "Vercel deployment"
+  ],
+
+  challenges: [
+    "Building a scalable multi-tenant architecture.",
+    "Creating a reusable embeddable chatbot.",
+    "Managing secure authentication and chat data."
+  ],
+
+  solutions: [
+    "Implemented Scalekit organizations.",
+    "Built a lightweight embeddable widget.",
+    "Stored chats securely in MongoDB."
+  ],
+
+  category: ["fullstack", "ai", "featured"],
+
+  featured: true,
+
+  links: {
+    github: "https://github.com/anshsuyal/SupportChatAi.git",
+    live: "https://github.com/anshsuyal/SupportChatAi.git"
+  }
+}
 ];
