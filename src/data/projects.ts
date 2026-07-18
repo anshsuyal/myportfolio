@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
 
     links: {
       github: "https://github.com/anshsuyal/jarvis",
-      live: "#",
+      live: "https://github.com/anshsuyal/jarvis",
     },
   },
   {
