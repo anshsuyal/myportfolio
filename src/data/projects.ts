@@ -255,5 +255,45 @@ export const projectsData: Project[] = [
     github: "https://github.com/anshsuyal/SupportChatAi.git",
     live: "https://github.com/anshsuyal/SupportChatAi.git"
   }
+},
+{
+  id: "6",
+
+  title: "Data Structures & Algorithms",
+
+  shortDescription:
+    "A comprehensive collection of Data Structures and Algorithms solutions for coding interview preparation.",
+
+  fullDescription:
+    "A continuously updated repository containing Data Structures and Algorithms solutions implemented in C++. The repository covers fundamental to advanced concepts including Arrays, Strings, Linked Lists, Stacks, Queues, Trees, Graphs, Binary Search, Recursion, Backtracking, Greedy Algorithms, Dynamic Programming, and more. Each solution focuses on writing clean, optimized code while improving problem-solving and analytical skills for technical interviews.",
+
+  image:
+    "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+
+  stack: [
+    "C++",
+    "javascript"
+  ],
+
+  challenges: [
+    "Optimizing algorithms for better performance.",
+    "Solving problems using multiple approaches.",
+    "Improving time and space complexity."
+  ],
+
+  solutions: [
+    "Applied efficient algorithms and STL data structures.",
+    "Used techniques such as Two Pointers, Sliding Window, Binary Search, DFS, BFS, Greedy, and Dynamic Programming.",
+    "Organized solutions by topic for easier learning and revision."
+  ],
+
+  category: ["dsa", "cpp"],
+
+  featured: false,
+
+  links: {
+    github: "https://github.com/anshsuyal/Datastructureandalgorithm",
+    live: ""
+  }
 }
 ];
