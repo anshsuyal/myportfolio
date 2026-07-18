@@ -268,7 +268,7 @@ export const projectsData: Project[] = [
     "A continuously updated repository containing Data Structures and Algorithms solutions implemented in C++. The repository covers fundamental to advanced concepts including Arrays, Strings, Linked Lists, Stacks, Queues, Trees, Graphs, Binary Search, Recursion, Backtracking, Greedy Algorithms, Dynamic Programming, and more. Each solution focuses on writing clean, optimized code while improving problem-solving and analytical skills for technical interviews.",
 
   image:
-    "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "https://i.pinimg.com/736x/2f/16/24/2f16241e1a821f29a47302f3e6f8303d.jpg",
 
   stack: [
     "C++",
