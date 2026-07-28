@@ -111,13 +111,13 @@ export const projectsData: Project[] = [
       "Stored chats securely in MongoDB.",
     ],
 
-    category: ["fullstack", "ai", "featured"],
+    category: ["fullstack", "AI", "featured"],
 
     featured: true,
 
     links: {
       github: "https://github.com/anshsuyal/SupportChatAi.git",
-      live: "https://github.com/anshsuyal/SupportChatAi.git",
+      live: "",
     },
   },
   {
@@ -194,7 +194,7 @@ export const projectsData: Project[] = [
     featured: true,
     links: {
       github: "https://github.com/anshsuyal/ChatApplication",
-      live: "#",
+      live: "https://github.com/anshsuyal/ChatApplication",
     },
   },
   {
