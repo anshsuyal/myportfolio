@@ -3,6 +3,170 @@ import type { Project } from "../types/project";
 export const projectsData: Project[] = [
   {
     id: "1",
+
+    title: "Data Structures & Algorithms",
+
+    shortDescription:
+      "A comprehensive collection of Data Structures and Algorithms solutions for coding interview preparation.",
+
+    fullDescription:
+      "A continuously updated repository containing Data Structures and Algorithms solutions implemented in C++. The repository covers fundamental to advanced concepts including Arrays, Strings, Linked Lists, Stacks, Queues, Trees, Graphs, Binary Search, Recursion, Backtracking, Greedy Algorithms, Dynamic Programming, and more. Each solution focuses on writing clean, optimized code while improving problem-solving and analytical skills for technical interviews.",
+
+    image:
+      "https://i.pinimg.com/736x/2f/16/24/2f16241e1a821f29a47302f3e6f8303d.jpg",
+
+    stack: ["C++", "javascript"],
+
+    challenges: [
+      "Optimizing algorithms for better performance.",
+      "Solving problems using multiple approaches.",
+      "Improving time and space complexity.",
+    ],
+
+    solutions: [
+      "Applied efficient algorithms and STL data structures.",
+      "Used techniques such as Two Pointers, Sliding Window, Binary Search, DFS, BFS, Greedy, and Dynamic Programming.",
+      "Organized solutions by topic for easier learning and revision.",
+    ],
+
+    category: ["dsa", "cpp"],
+
+    featured: false,
+
+    links: {
+      github: "https://github.com/anshsuyal/Datastructureandalgorithm",
+    },
+  },
+  {
+    id: "2",
+    title: "Portfolio Website",
+    shortDescription: "A modern, interactive developer portfolio.",
+    fullDescription:
+      "A highly interactive and visually engaging personal portfolio website built to showcase my projects and skills. It features custom animations, glassmorphism design, and a responsive layout tailored for a premium user experience.",
+    image:
+      "https://i.pinimg.com/1200x/52/16/e0/5216e04a79f5ce2d813618a605117f5f.jpg",
+    stack: ["React.js", "Tailwind CSS", "Framer Motion"],
+    features: [
+      "Smooth scroll animations",
+      "Glassmorphism UI",
+      "Dark mode design",
+      "Fully responsive",
+      "SEO optimized",
+    ],
+    challenges: ["Ensuring smooth animations on lower-end devices."],
+    solutions: [
+      "Utilized Framer Motion with hardware acceleration and implemented a reduced motion hook for accessibility.",
+    ],
+    category: ["frontend", "featured"],
+    featured: true,
+    links: {
+      github: "https://github.com/anshsuyal/myportfolio.git",
+      live: "https://myportfolio-lemon-two-89.vercel.app/#hero",
+    },
+  },
+  {
+    id: "3",
+
+    title: "AI Customer Support Chatbot",
+
+    shortDescription:
+      "A production-ready AI chatbot SaaS with an embeddable chat widget for websites.",
+
+    fullDescription:
+      "A full-stack AI customer support chatbot built with Next.js, MongoDB, and Scalekit. It allows businesses to embed an AI chatbot on any website, manage organizations, store conversations securely, and customize chatbot settings through a modern dashboard.",
+
+    image:
+      "https://i.pinimg.com/736x/8c/18/ac/8c18ac254bdec9cfeb17ef8b6c48a198.jpg",
+
+    stack: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Scalekit",
+      "AI",
+      "Vercel",
+    ],
+
+    features: [
+      "AI-powered customer support",
+      "Embeddable chat widget",
+      "Multi-tenant SaaS architecture",
+      "Scalekit authentication",
+      "MongoDB chat storage",
+      "Responsive dashboard",
+      "Vercel deployment",
+    ],
+
+    challenges: [
+      "Building a scalable multi-tenant architecture.",
+      "Creating a reusable embeddable chatbot.",
+      "Managing secure authentication and chat data.",
+    ],
+
+    solutions: [
+      "Implemented Scalekit organizations.",
+      "Built a lightweight embeddable widget.",
+      "Stored chats securely in MongoDB.",
+    ],
+
+    category: ["fullstack", "ai", "featured"],
+
+    featured: true,
+
+    links: {
+      github: "https://github.com/anshsuyal/SupportChatAi.git",
+      live: "https://github.com/anshsuyal/SupportChatAi.git",
+    },
+  },
+  {
+    id: "4",
+    title: "TaxiWeb",
+    shortDescription:
+      "A modern taxi booking web application with responsive UI and seamless booking experience.",
+    fullDescription:
+      "TaxiWeb is a responsive taxi booking platform designed to provide users with a smooth and intuitive cab reservation experience. The application features a modern UI, multiple service sections, responsive layouts, and optimized performance to deliver a professional transportation booking interface.",
+
+    image:
+      "https://i.pinimg.com/736x/56/23/f8/5623f821e289f880e000429475abd36d.jpg",
+
+    stack: ["React.js", "Tailwind CSS", "JavaScript", "React Router", "Vite"],
+
+    features: [
+      "Modern and responsive landing page",
+      "Taxi booking interface",
+      "Service showcase section",
+      "Interactive navigation",
+      "Mobile-first responsive design",
+      "Fast loading performance",
+      "Clean and reusable component architecture",
+      "Call-to-action booking sections",
+    ],
+
+    challenges: [
+      "Creating a fully responsive layout across different screen sizes.",
+      "Building reusable React components for better maintainability.",
+      "Optimizing page performance while maintaining an attractive UI.",
+    ],
+
+    solutions: [
+      "Used Tailwind CSS utility classes for responsive design.",
+      "Organized the project into reusable React components.",
+      "Optimized assets and component rendering for faster performance.",
+    ],
+
+    category: ["frontend", "featured"],
+
+    featured: true,
+
+    links: {
+      github: "https://github.com/anshsuyal/Taxiweb.git",
+      live: "https://taxiweb-blond.vercel.app/",
+    },
+  },
+  {
+    id: "5",
     title: "Real-Time Chat Application",
     shortDescription:
       "A production-ready chat platform with instant messaging and JWT authentication.",
@@ -34,7 +198,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "2",
+    id: "6",
     title: "Jarvis AI Assistant",
     shortDescription:
       "A modern AI-powered virtual assistant built with React, Node js , Gemini API , Express js , Mongo Db , JWT web token , Authentication etc",
@@ -74,7 +238,7 @@ export const projectsData: Project[] = [
     },
   },
   {
-    id: "3",
+    id: "7",
     title: "CareerConnect",
     shortDescription:
       "A full-stack job portal connecting job seekers with employers.",
@@ -129,171 +293,4 @@ export const projectsData: Project[] = [
       live: "https://careerconnect-git-main-anshsuyals-projects.vercel.app/",
     },
   },
-  {
-    id: "4",
-    title: "Portfolio Website",
-    shortDescription: "A modern, interactive developer portfolio.",
-    fullDescription:
-      "A highly interactive and visually engaging personal portfolio website built to showcase my projects and skills. It features custom animations, glassmorphism design, and a responsive layout tailored for a premium user experience.",
-    image:
-      "https://i.pinimg.com/1200x/39/22/86/3922861c315e781d32f1e725099fe0ac.jpg",
-    stack: ["React.js", "Tailwind CSS", "Framer Motion"],
-    features: [
-      "Smooth scroll animations",
-      "Glassmorphism UI",
-      "Dark mode design",
-      "Fully responsive",
-      "SEO optimized",
-    ],
-    challenges: ["Ensuring smooth animations on lower-end devices."],
-    solutions: [
-      "Utilized Framer Motion with hardware acceleration and implemented a reduced motion hook for accessibility.",
-    ],
-    category: ["frontend", "featured"],
-    featured: true,
-    links: {
-      github: "https://github.com/anshsuyal/myportfolio.git",
-      live: "https://myportfolio-lemon-two-89.vercel.app/#hero",
-    },
-  },
-  {
-    id: "4",
-    title: "TaxiWeb",
-    shortDescription:
-      "A modern taxi booking web application with responsive UI and seamless booking experience.",
-    fullDescription:
-      "TaxiWeb is a responsive taxi booking platform designed to provide users with a smooth and intuitive cab reservation experience. The application features a modern UI, multiple service sections, responsive layouts, and optimized performance to deliver a professional transportation booking interface.",
-
-    image:
-      "https://i.pinimg.com/736x/56/23/f8/5623f821e289f880e000429475abd36d.jpg",
-
-    stack: ["React.js", "Tailwind CSS", "JavaScript", "React Router", "Vite"],
-
-    features: [
-      "Modern and responsive landing page",
-      "Taxi booking interface",
-      "Service showcase section",
-      "Interactive navigation",
-      "Mobile-first responsive design",
-      "Fast loading performance",
-      "Clean and reusable component architecture",
-      "Call-to-action booking sections",
-    ],
-
-    challenges: [
-      "Creating a fully responsive layout across different screen sizes.",
-      "Building reusable React components for better maintainability.",
-      "Optimizing page performance while maintaining an attractive UI.",
-    ],
-
-    solutions: [
-      "Used Tailwind CSS utility classes for responsive design.",
-      "Organized the project into reusable React components.",
-      "Optimized assets and component rendering for faster performance.",
-    ],
-
-    category: ["frontend", "featured"],
-
-    featured: true,
-
-    links: {
-      github: "https://github.com/anshsuyal/Taxiweb.git",
-      live: "https://taxiweb-blond.vercel.app/",
-    },
-  },
-  {
-  id: "5",
-
-  title: "AI Customer Support Chatbot",
-
-  shortDescription:
-    "A production-ready AI chatbot SaaS with an embeddable chat widget for websites.",
-
-  fullDescription:
-    "A full-stack AI customer support chatbot built with Next.js, MongoDB, and Scalekit. It allows businesses to embed an AI chatbot on any website, manage organizations, store conversations securely, and customize chatbot settings through a modern dashboard.",
-
-  image: "https://i.pinimg.com/736x/f0/b7/ec/f0b7ec3524b19ef0b3ff7ffcc325ece1.jpg",
-
-  stack: [
-    "Next.js",
-    "React.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "MongoDB",
-    "Scalekit",
-    "AI",
-    "Vercel"
-  ],
-
-  features: [
-    "AI-powered customer support",
-    "Embeddable chat widget",
-    "Multi-tenant SaaS architecture",
-    "Scalekit authentication",
-    "MongoDB chat storage",
-    "Responsive dashboard",
-    "Vercel deployment"
-  ],
-
-  challenges: [
-    "Building a scalable multi-tenant architecture.",
-    "Creating a reusable embeddable chatbot.",
-    "Managing secure authentication and chat data."
-  ],
-
-  solutions: [
-    "Implemented Scalekit organizations.",
-    "Built a lightweight embeddable widget.",
-    "Stored chats securely in MongoDB."
-  ],
-
-  category: ["fullstack", "ai", "featured"],
-
-  featured: true,
-
-  links: {
-    github: "https://github.com/anshsuyal/SupportChatAi.git",
-    live: "https://github.com/anshsuyal/SupportChatAi.git"
-  }
-},
-{
-  id: "6",
-
-  title: "Data Structures & Algorithms",
-
-  shortDescription:
-    "A comprehensive collection of Data Structures and Algorithms solutions for coding interview preparation.",
-
-  fullDescription:
-    "A continuously updated repository containing Data Structures and Algorithms solutions implemented in C++. The repository covers fundamental to advanced concepts including Arrays, Strings, Linked Lists, Stacks, Queues, Trees, Graphs, Binary Search, Recursion, Backtracking, Greedy Algorithms, Dynamic Programming, and more. Each solution focuses on writing clean, optimized code while improving problem-solving and analytical skills for technical interviews.",
-
-  image:
-    "https://i.pinimg.com/736x/2f/16/24/2f16241e1a821f29a47302f3e6f8303d.jpg",
-
-  stack: [
-    "C++",
-    "javascript"
-  ],
-
-  challenges: [
-    "Optimizing algorithms for better performance.",
-    "Solving problems using multiple approaches.",
-    "Improving time and space complexity."
-  ],
-
-  solutions: [
-    "Applied efficient algorithms and STL data structures.",
-    "Used techniques such as Two Pointers, Sliding Window, Binary Search, DFS, BFS, Greedy, and Dynamic Programming.",
-    "Organized solutions by topic for easier learning and revision."
-  ],
-
-  category: ["dsa", "cpp"],
-
-  featured: false,
-
-  links: {
-    github: "https://github.com/anshsuyal/Datastructureandalgorithm",
-    live: ""
-  }
-}
 ];
