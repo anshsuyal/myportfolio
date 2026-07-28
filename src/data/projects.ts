@@ -247,7 +247,7 @@ export const projectsData: Project[] = [
       "CareerConnect is a modern full-stack job portal built using the MERN stack. It enables job seekers to explore and apply for jobs while allowing recruiters to post job openings and manage applications. The platform includes secure authentication, responsive UI, role-based access, and a scalable backend architecture.",
 
     image:
-      "https://i.pinimg.com/736x/da/39/41/da39411a2fd1e232e333745eb9350f55.jpg", // Replace with your project screenshot
+      "https://i.pinimg.com/1200x/e8/17/e3/e817e3e5d121a03b714af951f1f3447a.jpg", // Replace with your project screenshot
 
     stack: [
       "React.js",
