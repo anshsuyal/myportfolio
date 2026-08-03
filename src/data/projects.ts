@@ -117,7 +117,7 @@ export const projectsData: Project[] = [
 
     links: {
       github: "https://github.com/anshsuyal/SupportChatAi.git",
-      live: "",
+      live: "https://github.com/anshsuyal/SupportChatAi.git",
     },
   },
   {
